@@ -1,0 +1,45 @@
+/*-------------------All the games------------------------------*/
+.content
+{
+    display: grid;
+    gap: 2rem;
+}
+.capybaraGame
+{
+    background-color: rgb(185, 173, 156);
+    border-radius: 5%;
+    display: grid;
+    grid-template-areas: 
+    "title   title   title"
+    "img     text    text";
+    padding: 4rem 0;
+}
+.anotherGame
+{
+    background-color: rgb(155, 173, 156);
+    border-radius: 5%;
+    display: grid;
+    max-width: 90%;
+    grid-template-areas: 
+    "title   title   title"
+    "text    text      img";
+    padding: 4rem 0;
+}
+.content h3 
+{
+    grid-area: title;
+    margin: 0 auto;
+}
+.content img
+{
+    padding: 1rem;
+    grid-area: img;
+    border-radius: 30%;
+}
+
+/*The text in at all games*/
+.content p
+{
+    grid-area: text;
+    margin: 2rem;
+}

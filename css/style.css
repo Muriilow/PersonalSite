@@ -1,0 +1,53 @@
+/*Rules*/
+:root 
+{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    background-color: antiquewhite;
+}
+/*no margin*/
+body
+{
+    margin: 0;
+}
+/* 0 margin at the figure <img>*/
+figure
+{
+    margin: 0;
+}
+/*The most part of the website*/
+main
+{
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+/*Footer Line*/
+footer
+{
+    margin: 5rem auto;
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 80%;
+}
+
+
+
+
+/*If im at a cellphone */
+@media screen and (max-width: 560px)
+{
+    /*Put the name Muriilo on the nav, and centralize it */
+    .link-nav
+    {
+        display: block;
+    }
+    .name
+    {
+        display: flex;
+        justify-content: center;    
+    }
+    .menu a
+    {
+        padding: 0.5rem;
+    }
+
+}
