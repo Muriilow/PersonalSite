@@ -1,29 +1,50 @@
 /*--------------------------The introduction---------------------*/
 .introduction
 {
-    display: flex;
-    margin-bottom: 10rem;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
 }
 .mainText
 {
-    flex-direction: column;
+    width: 100%; 
+    margin: 0;
+}
+.mainText > * {
+    display: block;
+    width: 100%;
 }
 .title 
 {
-    display: flex;
+    font-style: bold;
+    text-align: center;
     margin: 0;
-    justify-content: center;
-    padding: 1rem 0;
+    padding: 6rem 0;
 }
-.mainImage img
+.links 
 {
-    border-radius: 50%;
-
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.links a 
+{
+    margin: 0 1rem;
+    color: black;
+    text-decoration: underline;
+}
+.subtitle-text
+{
+    color: rgb(105, 99, 87);
+    text-align: center;
+    margin: 0;
 }
 .subtitle 
 {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    padding: 1rem 0;
+    color: rgb(105, 99, 87);
+    text-align: center;
+    margin: 1rem 0;
 }

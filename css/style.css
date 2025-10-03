@@ -3,9 +3,17 @@
 {
     font-size: 1.1rem;
     line-height: 1.5rem;
-    background-color: antiquewhite;
+    background-color: rgb(246, 238, 225);
 }
-/*no margin*/
+h1
+{
+    font-size: 6rem;
+}
+p
+{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
 body
 {
     margin: 0;
