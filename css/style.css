@@ -1,7 +1,7 @@
 /*Rules*/
-:root 
+html 
 {
-    font-size: 1.1rem;
+    font-size: 16px;
     line-height: 1.5rem;
     background-color: rgb(246, 238, 225);
 }
@@ -26,7 +26,7 @@ figure
 /*The most part of the website*/
 main
 {
-    max-width: 50rem;
+    max-width: 60rem;
     margin: 5rem auto;
 }
 /*Footer Line*/
@@ -38,24 +38,24 @@ footer
 }
 
 
-
-
-/*If im at a cellphone */
 @media screen and (max-width: 560px)
 {
-    /*Put the name Muriilo on the nav, and centralize it */
-    .link-nav
+    h1 
     {
-        display: block;
+        font-size: 4rem;
+        line-height: 150%;
     }
-    .name
-    {
-        display: flex;
-        justify-content: center;    
-    }
-    .menu a
-    {
-        padding: 0.5rem;
-    }
-
 }
+@media (min-width: 2000px) {
+    html {
+        font-size: 24px; 
+    }
+}
+
+@media (min-width: 3000px) {
+    html {
+        font-size: 32px;
+    }
+}
+
+
