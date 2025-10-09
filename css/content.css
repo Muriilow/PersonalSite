@@ -23,6 +23,7 @@
     "img"
     "text";
     padding: 1rem 0;
+    overflow: hidden;
 }
 .project:hover
 {
@@ -52,16 +53,32 @@
 {
     text-align: center;
     grid-area: text;
-    max-height: 0;
     opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
     transition: all 0.4s ease;
     overflow: hidden;
 }
 .project:hover p 
 {
-    max-height: 200px; /* Altura máxima */
     opacity: 1;
     margin-top: 1rem;
+    transform: scaleY(1);
+}
+.certification{
+    margin: 2rem 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.aboutMe
+{
+    margin: 2rem 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 @media (max-width: 800px) {
     .content {
