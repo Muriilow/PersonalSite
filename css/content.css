@@ -24,6 +24,7 @@
     "text";
     padding: 1rem 0;
     overflow: hidden;
+    min-height: 25rem;
 }
 .project:hover
 {
@@ -54,6 +55,7 @@
     text-align: center;
     grid-area: text;
     opacity: 0;
+    max-height: 0;
     transform: scaleY(0);
     transform-origin: top;
     transition: all 0.4s ease;
@@ -62,6 +64,7 @@
 .project:hover p 
 {
     opacity: 1;
+    max-height: 13rem;
     margin-top: 1rem;
     transform: scaleY(1);
 }
